@@ -1,0 +1,15 @@
+<!DOCTYPE html>
+<html>
+<body>
+<h1> We can give you an estimate of how many you will need if you are tiling a floor with our tiles.
+You need to tell us the length and the width of the room
+(in metres).</h1>
+<script>
+Var length = prompt (“enter the room length”, “ ”);
+Var width = prompt (“enter the room width”, “ ”);
+Var tilesSize = 0.25;
+Var numberOfTiles = (length * width)/tileSize;
+Alert (“the estimate for the number of tiles needed is “ + numberOfTiles);
+</script>
+</body>
+</html>
